@@ -2,8 +2,7 @@ cask "shuttlex" do
   version "1.7.0"
   sha256 "2ce7e7e287715fb329f63658cd4561cce9ec611e5bdc64f5ab4396dd42ea8771"
 
-  url "https://github.com/DasDuo/ShuttleX/releases/download/v#{version}/ShuttleX-#{version}-arm64.dmg",
-      verified: "github.com/DasDuo/ShuttleX/"
+  url "https://github.com/DasDuo/ShuttleX/releases/download/v#{version}/ShuttleX-#{version}-arm64.dmg"
   name "ShuttleX"
   desc "Modern SSH launcher for the macOS menu bar"
   homepage "https://github.com/DasDuo/ShuttleX"
@@ -14,7 +13,7 @@ cask "shuttlex" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ShuttleX.app"
 
