@@ -4,7 +4,7 @@ cask "shuttlex" do
 
   url "https://github.com/DasDuo/ShuttleX/releases/download/v#{version}/ShuttleX-#{version}-arm64.dmg"
   name "ShuttleX"
-  desc "Modern SSH launcher for the macOS menu bar"
+  desc "SSH launcher for the menu bar"
   homepage "https://github.com/DasDuo/ShuttleX"
 
   livecheck do
