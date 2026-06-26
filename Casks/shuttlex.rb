@@ -1,6 +1,6 @@
 cask "shuttlex" do
-  version "1.12.0"
-  sha256 "33d7d6c9f61f72a758735d48eea1e180e4ae5133564a1f5988cb62a1d620dfa1"
+  version "1.13.0"
+  sha256 "eceaad7325641cfce83d8817171ffd249506a4e84234d500c2e5b13356b7b9e3"
 
   url "https://github.com/DasDuo/ShuttleX/releases/download/v#{version}/ShuttleX-#{version}-arm64.dmg"
   name "ShuttleX"
